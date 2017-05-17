@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		EF4FF0841EC6A41B002EB809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0831EC6A41B002EB809 /* AppDelegate.swift */; };
 		EF4FF0861EC6A41B002EB809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0851EC6A41B002EB809 /* ViewController.swift */; };
-		EF4FF0891EC6A41B002EB809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4FF0871EC6A41B002EB809 /* Main.storyboard */; };
 		EF4FF08C1EC6A41B002EB809 /* ManagerEvent_TableView_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF08A1EC6A41B002EB809 /* ManagerEvent_TableView_.xcdatamodeld */; };
 		EF4FF08E1EC6A41B002EB809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4FF08D1EC6A41B002EB809 /* Assets.xcassets */; };
 		EF4FF0911EC6A41B002EB809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4FF08F1EC6A41B002EB809 /* LaunchScreen.storyboard */; };
 		EF4FF09C1EC6A41B002EB809 /* ManagerEvent_TableView_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF09B1EC6A41B002EB809 /* ManagerEvent_TableView_Tests.swift */; };
 		EF4FF0A71EC6A41B002EB809 /* ManagerEvent_TableView_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0A61EC6A41B002EB809 /* ManagerEvent_TableView_UITests.swift */; };
+		EF4FF0CF1EC6A60E002EB809 /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0CE1EC6A60E002EB809 /* EventDetailTableViewController.swift */; };
+		EF4FF0D11EC6A637002EB809 /* ManagementEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0D01EC6A637002EB809 /* ManagementEventsTableViewController.swift */; };
+		EF4FF0D41EC6A673002EB809 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0D31EC6A673002EB809 /* Event.swift */; };
+		EF4FF0D61EC6A69E002EB809 /* EventLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4FF0D51EC6A69E002EB809 /* EventLine.swift */; };
+		EF4FF0D81EC6A72B002EB809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4FF0D71EC6A72B002EB809 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		EF4FF0801EC6A41B002EB809 /* ManagerEvent(TableView).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ManagerEvent(TableView).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4FF0831EC6A41B002EB809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF4FF0851EC6A41B002EB809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF4FF0881EC6A41B002EB809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF4FF08B1EC6A41B002EB809 /* ManagerEvent_TableView_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ManagerEvent_TableView_.xcdatamodel; sourceTree = "<group>"; };
 		EF4FF08D1EC6A41B002EB809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4FF0901EC6A41B002EB809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		EF4FF0A21EC6A41B002EB809 /* ManagerEvent(TableView)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ManagerEvent(TableView)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4FF0A61EC6A41B002EB809 /* ManagerEvent_TableView_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerEvent_TableView_UITests.swift; sourceTree = "<group>"; };
 		EF4FF0A81EC6A41B002EB809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4FF0CE1EC6A60E002EB809 /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
+		EF4FF0D01EC6A637002EB809 /* ManagementEventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementEventsTableViewController.swift; sourceTree = "<group>"; };
+		EF4FF0D31EC6A673002EB809 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EF4FF0D51EC6A69E002EB809 /* EventLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLine.swift; sourceTree = "<group>"; };
+		EF4FF0D71EC6A72B002EB809 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,16 @@
 		EF4FF0821EC6A41B002EB809 /* ManagerEvent(TableView) */ = {
 			isa = PBXGroup;
 			children = (
+				EF4FF0D21EC6A653002EB809 /* Model */,
 				EF4FF0831EC6A41B002EB809 /* AppDelegate.swift */,
 				EF4FF0851EC6A41B002EB809 /* ViewController.swift */,
-				EF4FF0871EC6A41B002EB809 /* Main.storyboard */,
 				EF4FF08D1EC6A41B002EB809 /* Assets.xcassets */,
+				EF4FF0D71EC6A72B002EB809 /* Main.storyboard */,
 				EF4FF08F1EC6A41B002EB809 /* LaunchScreen.storyboard */,
 				EF4FF0921EC6A41B002EB809 /* Info.plist */,
 				EF4FF08A1EC6A41B002EB809 /* ManagerEvent_TableView_.xcdatamodeld */,
+				EF4FF0D01EC6A637002EB809 /* ManagementEventsTableViewController.swift */,
+				EF4FF0CE1EC6A60E002EB809 /* EventDetailTableViewController.swift */,
 			);
 			path = "ManagerEvent(TableView)";
 			sourceTree = "<group>";
@@ -126,6 +137,15 @@
 				EF4FF0A81EC6A41B002EB809 /* Info.plist */,
 			);
 			path = "ManagerEvent(TableView)UITests";
+			sourceTree = "<group>";
+		};
+		EF4FF0D21EC6A653002EB809 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FF0D31EC6A673002EB809 /* Event.swift */,
+				EF4FF0D51EC6A69E002EB809 /* EventLine.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4FF0D81EC6A72B002EB809 /* Main.storyboard in Resources */,
 				EF4FF0911EC6A41B002EB809 /* LaunchScreen.storyboard in Resources */,
 				EF4FF08E1EC6A41B002EB809 /* Assets.xcassets in Resources */,
-				EF4FF0891EC6A41B002EB809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4FF0D11EC6A637002EB809 /* ManagementEventsTableViewController.swift in Sources */,
 				EF4FF0861EC6A41B002EB809 /* ViewController.swift in Sources */,
 				EF4FF08C1EC6A41B002EB809 /* ManagerEvent_TableView_.xcdatamodeld in Sources */,
 				EF4FF0841EC6A41B002EB809 /* AppDelegate.swift in Sources */,
+				EF4FF0D41EC6A673002EB809 /* Event.swift in Sources */,
+				EF4FF0D61EC6A69E002EB809 /* EventLine.swift in Sources */,
+				EF4FF0CF1EC6A60E002EB809 /* EventDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +324,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF4FF0871EC6A41B002EB809 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF4FF0881EC6A41B002EB809 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF4FF08F1EC6A41B002EB809 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +525,7 @@
 				EF4FF0AD1EC6A41B002EB809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4FF0AE1EC6A41B002EB809 /* Build configuration list for PBXNativeTarget "ManagerEvent(TableView)Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				EF4FF0B01EC6A41B002EB809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF4FF0B11EC6A41B002EB809 /* Build configuration list for PBXNativeTarget "ManagerEvent(TableView)UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				EF4FF0B31EC6A41B002EB809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
